@@ -109,7 +109,7 @@ def get_tianhang():
     return chp
 
 
-def get_birthday1(birthday, year, today):
+def get_birthday(birthday, year, today):
     birthday_year = birthday.split("-")[0]
     # 判断是否为农历生日
     if birthday_year[0] == "r":
